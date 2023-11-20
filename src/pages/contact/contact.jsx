@@ -211,7 +211,7 @@ class ContactUs extends Component {
                     fontWeight: "bold",
                   }}
                 >
-                  Contact Us!
+                  Oh no!
                 </Typography>
                 <Typography
                   variant="body2"
@@ -223,8 +223,7 @@ class ContactUs extends Component {
                     fontSize: "1.5em",
                   }}
                 >
-                  Feel free to get in touch with us if you have any questions
-                  about our project.
+                  The competition is over and we have closed our contact form.
                 </Typography>
                 <Typography
                   variant="body2"
@@ -237,9 +236,7 @@ class ContactUs extends Component {
                     padding: "0 20px",
                   }}
                 >
-                  We are especially interested in talking with companies looking
-                  to support our mission and students from Heriot-Watt wanting to
-                  take part.
+                  Apologies, but you could try having a look online to see what we're up to since the competition.
                 </Typography>
               </ThemeProvider>
             </Grid>
@@ -257,8 +254,8 @@ class ContactUs extends Component {
               ></path>
             </svg>
           </div>
-          <Box m={-3} />
-          <Grid
+          {/* <Box m={-3} /> */}
+          {/* <Grid
             container
             alignContent="center"
             direction="column"
@@ -280,8 +277,8 @@ class ContactUs extends Component {
             >
               <TheForm />
             </Box>
-          </Grid>
-          <center>
+          </Grid> */}
+          {/* <center>
             <ThemeProvider theme={secondaryFont}>
               <Typography
                 variant="h5"
@@ -293,8 +290,8 @@ class ContactUs extends Component {
                 You can also find us on...
               </Typography>
             </ThemeProvider>
-          </center>
-          <br />
+          </center> */}
+          {/* <br />
           <Grid
             container
             direction="row"
@@ -389,7 +386,7 @@ class ContactUs extends Component {
               href="https://open.spotify.com/show/572g2QVpSZRh1QEXVdZ6rq"
             />
           </Grid>
-          <br />
+          <br /> */}
         </Box>
       </>
     );

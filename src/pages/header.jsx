@@ -44,12 +44,12 @@ const headersData = [
     color: white,
     // bgColor: esteemGreen,
   },
-  {
-    label: "Contact",
-    href: "/contact",
-    color: white,
-    // bgColor: esteemGreen,
-  },
+  // {
+  //   label: "Contact",
+  //   href: "/contact",
+  //   color: white,
+  //   // bgColor: esteemGreen,
+  // },
   // {
   //   label: "360°",
   //   href: "/three60",
